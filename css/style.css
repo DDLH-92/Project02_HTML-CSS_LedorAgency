@@ -291,3 +291,16 @@ header ul li a:hover {
 .contact-form button:hover {
   background: red;
 }
+
+/* footer */
+
+footer {
+  background: #444;
+}
+
+footer p {
+  margin-bottom: 0;
+  padding: 5rem 1rem 5rem 1rem;
+  color: white;
+  text-align: center;
+}
