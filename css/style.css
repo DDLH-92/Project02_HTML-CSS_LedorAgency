@@ -36,6 +36,10 @@ strong {
   color: #f1c40f;
   font-weight: 400;
 }
+
+em {
+  color: #555;
+}
 /* class */
 
 .container {
@@ -200,4 +204,46 @@ header ul li a:hover {
 .who-content-text p {
   font-size: 1.3rem;
   line-height: 1.8rem;
+}
+
+/* testimonials */
+
+.testimonials {
+  padding: 5rem 1rem 5rem 1rem;
+}
+
+.testimonials-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-elem {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  flex: 1;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.testimonials-elem-text {
+  padding: 0 2rem;
+}
+
+.testimonials-elem-text p i {
+  margin: 0.2rem;
+}
+
+.testimonials-elem-profil p {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.testimonials-elem-profil img {
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
